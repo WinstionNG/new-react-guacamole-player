@@ -1,7 +1,7 @@
-# react-guacamole-player
+# new-react-guacamole-player
 
-[![npm Version](https://img.shields.io/badge/npm-v1.0.1-blue)](https://www.npmjs.org/package/react-guacamole-player)
-[![Dependencies](https://img.shields.io/badge/react-^16.8-red)](https://www.npmjs.org/package/react-guacamole-player)
+[![npm Version](https://img.shields.io/badge/npm-v1.0.1-blue)](https://www.npmjs.org/package/new-react-guacamole-player)
+[![Dependencies](https://img.shields.io/badge/react-^16.8-red)](https://www.npmjs.org/package/new-react-guacamole-player)
 
 This reusable React component that can play guacamole session recordings uses guacamole-common-js as it's rendering core.
 
@@ -12,17 +12,17 @@ This reusable React component that can play guacamole session recordings uses gu
 
 ## Install
 ```
-yarn add react-guacamole-player
+yarn add new-react-guacamole-player
 ```
 or
 ```
-npm i -S react-guacamole-player
+npm i -S new-react-guacamole-player
 ```
 
 ## Example
 ```javascript
 import React, { useState } from 'react';
-import GuacaPlayer from 'react-guacamole-player'
+import GuacaPlayer from 'new-react-guacamole-player'
 
 
 /**
@@ -42,7 +42,7 @@ const App: React.FC = () => {
 ## Controlled Player Size
 ```javascript
 import React, { useState } from 'react';
-import GuacaPlayer from 'react-guacamole-player'
+import GuacaPlayer from 'new-react-guacamole-player'
 
 const App: React.FC = () => {
     const [src, setSrc] = useState("");
@@ -58,7 +58,7 @@ const App: React.FC = () => {
 ## Disable Autoplay
 ```javascript
 import React, { useState } from 'react';
-import GuacaPlayer from 'react-guacamole-player'
+import GuacaPlayer from 'newreact-guacamole-player'
 
 
 /**
@@ -79,7 +79,7 @@ const App: React.FC = () => {
 ## Outside Control
 ```javascript
 import React, { useState, useCallback } from 'react';
-import GuacaPlayer from 'react-guacamole-player'
+import GuacaPlayer from 'new-react-guacamole-player'
 
 
 /**
@@ -118,7 +118,7 @@ const App: React.FC = () => {
 ## Internationalization
 ```javascript
 import React, { useState, useCallback } from 'react';
-import GuacaPlayer from 'react-guacamole-player'
+import GuacaPlayer from 'new-react-guacamole-player'
 
 
 /**

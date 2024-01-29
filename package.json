@@ -1,5 +1,5 @@
 {
-		"name": "react-guacamole-player",
+		"name": "new-react-guacamole-player",
 		"version": "1.0.1",
 		"description": "A guacamole session player for react",
 		"main": "dist/player.js",
